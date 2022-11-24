@@ -1,7 +1,7 @@
 from typing import List
 
 
-def bubble_sort(arr: List[int]) -> None:
+def bubble_sort(arr: List[float]) -> None:
     is_sorted: bool = False
     counter: int = 0
     while not is_sorted:
@@ -13,5 +13,5 @@ def bubble_sort(arr: List[int]) -> None:
         counter += 1
 
 
-def swap_values(i, j, arr):
+def swap_values(i: int, j: int, arr: List[float]) -> None:
     arr[i], arr[j] = arr[j], arr[i]
