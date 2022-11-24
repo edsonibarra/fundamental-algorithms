@@ -10,7 +10,7 @@ def bubble_sort(arr: List[int]) -> None:
             if arr[i] > arr[i + 1]:
                 swap_values(i, i + 1, arr)
                 is_sorted = False
-        count += 1
+        counter += 1
 
 
 def swap_values(i, j, arr):
