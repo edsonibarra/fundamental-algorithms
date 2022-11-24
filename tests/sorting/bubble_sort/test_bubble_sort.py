@@ -21,6 +21,17 @@ big_arr_17, sorted_big_arr_17 = create_large_arr_()
 big_arr_18, sorted_big_arr_18 = create_large_arr_()
 big_arr_19, sorted_big_arr_19 = create_large_arr_()
 big_arr_20, sorted_big_arr_20 = create_large_arr_()
+big_arr_21, sorted_big_arr_21 = create_large_arr_(size=4_000)
+big_arr_22, sorted_big_arr_22 = create_large_arr_(size=4_000)
+big_arr_23, sorted_big_arr_23 = create_large_arr_(size=4_000)
+big_arr_24, sorted_big_arr_24 = create_large_arr_(size=4_000)
+big_arr_25, sorted_big_arr_25 = create_large_arr_(size=4_000)
+big_arr_26, sorted_big_arr_26 = create_large_arr_(size=4_000)
+big_arr_27, sorted_big_arr_27 = create_large_arr_(size=4_000)
+big_arr_28, sorted_big_arr_28 = create_large_arr_(size=4_000)
+big_arr_29, sorted_big_arr_29 = create_large_arr_(size=4_000)
+big_arr_30, sorted_big_arr_30 = create_large_arr_(size=4_000)
+
 
 @pytest.mark.parametrize(
     ('arr','expected'),
@@ -54,6 +65,16 @@ big_arr_20, sorted_big_arr_20 = create_large_arr_()
         (big_arr_18, sorted_big_arr_18),
         (big_arr_19, sorted_big_arr_19),
         (big_arr_20, sorted_big_arr_20),
+        (big_arr_21, sorted_big_arr_21),
+        (big_arr_22, sorted_big_arr_22),
+        (big_arr_23, sorted_big_arr_23),
+        (big_arr_24, sorted_big_arr_24),
+        (big_arr_25, sorted_big_arr_25),
+        (big_arr_26, sorted_big_arr_26),
+        (big_arr_27, sorted_big_arr_27),
+        (big_arr_28, sorted_big_arr_28),
+        (big_arr_29, sorted_big_arr_29),
+        (big_arr_30, sorted_big_arr_30),
     )
 )
 def test_bubble_sort(arr, expected):
